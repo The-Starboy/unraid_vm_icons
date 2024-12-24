@@ -38,7 +38,7 @@ checkgit() {
     rm -r /config/unraid_vm_icons
     fi
 	#run gitclone
-git -C /config clone https://github.com/SpaceinvaderOne/unraid_vm_icons.git				
+git -C /config clone https://github.com/the-starboy/unraid_vm_icons.git				
 }
 
 # Create icon directory if not present then download selected icons. Skip if already done
